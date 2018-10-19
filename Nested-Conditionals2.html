@@ -1,0 +1,27 @@
+<script>
+    function favHero (hero){
+        if(hero=="Iron Man"){
+            return "Hey, mine too!"
+        }else if(hero!="Iron Man") // because of the != it will automatically return the following statement and then the code has ended because it only runs 1 action
+        {   return "That hero is lame."
+        } else if (hero=="Green Lanturn"){ // even though i added this else if. it will still return "that hero is lame" ---- see line 5
+            return "I guess Green Lanturn is OK"
+        };
+    };
+    console.log(favHero("Green Lanturn"));
+    </script>
+
+
+<script>
+        function favHero (hero){
+            if(hero=="Iron Man"){
+                return "Hey, mine too!"
+            }else if(hero=="Green Lanturn") // we switched the order of the code that it will  return line 20
+            {   return "I guess Green Lanturn is OK"
+            } else {
+                return hero+ " is lame." // anything else inputted other than iron man or green lanturn will simply return ***** is lame
+            };
+        };
+        console.log(favHero("Green Lanturn"));
+        </script>
+    

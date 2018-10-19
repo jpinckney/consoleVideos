@@ -1,0 +1,18 @@
+<script>
+// This is the Nested Conditionals Video 
+var testVehicle = {
+    type: "truck", // these two under variable are called objects
+    color: "red"   // mess with the type and color to get different results
+};
+
+if(testVehicle.type=="Truck"){  // what is going to happen is if the type is 'truck' then it will proceed with the rest of the program
+    if(testVehicle.color=="Red"){ // if it meets the proper type then it will test for color 
+        console.log("Red trucks go in garage 1.");
+        }else if (testVehicle.color=="blue"){
+            console.log("Blue trucks go in garage 2.");
+        };
+    }else{
+        console.log("Only trucks allowed!"); // this will output to the screen if the first if came back as false
+    };   
+
+</script>
